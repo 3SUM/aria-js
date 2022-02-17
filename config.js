@@ -140,7 +140,7 @@ const config = {
      */
     {
       level: 10,
-      name: "luis",
+      name: "Bot Owner",
       // Another simple check, compares the message author id to a list of owners found in the bot application.
       check: (message) => {
         const owner = message.author ?? message.user;

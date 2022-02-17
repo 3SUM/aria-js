@@ -8,10 +8,10 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
   await message.channel.send("Deploying commands!");
 
   // We'll use set but please keep in mind that `set` is overkill for a singular command.
-  // Set the guild commands like
+  // Set the guild commands like 
   await client.guilds.cache.get(message.guild.id)?.commands.set(guildCmds.map(c => c.commandData));
 
-  // Then set the global commands like
+  // Then set the global commands like 
   await client.application?.commands.set(globalCmds.map(c => c.commandData)).catch(e => console.log(e));
 
   // Reply to the user that the commands have been deployed.
@@ -22,7 +22,7 @@ exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: [],
-  permLevel: "luis"
+  permLevel: "Bot Owner"
 };
 
 exports.help = {
