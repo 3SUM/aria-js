@@ -25,6 +25,7 @@ exports.run = async (client, interaction) => {
 
     const queryText = "SELECT karma FROM onlycode WHERE userid = $1";
     const values = [userOption.id];
+    console.log("hereeee1");
     const userKarma = await query(queryText, values);
     let karmaNum = "0";
     if (userKarma.rowCount !== 0) {
