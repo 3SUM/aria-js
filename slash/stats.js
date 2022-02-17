@@ -27,5 +27,5 @@ exports.commandData = {
 // Otherwise false is global.
 exports.conf = {
   permLevel: "User",
-  guildOnly: false
+  guildOnly: true
 };
