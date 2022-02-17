@@ -61,14 +61,14 @@ exports.run = async (client, interaction) => {
           true
         );
         embedInfo.addField(
-          "**❱ Date Join Discord:**",
+          "**❱ Joined Discord:**",
           "`" +
             moment(member.user.createdTimestamp).format("MM/DD/YYYY") +
             "`\n",
           true
         );
         embedInfo.addField(
-          "**❱ Date Join OnlyCode:**",
+          "**❱ Joined OnlyCode:**",
           "`" + moment(member.joinedTimestamp).format("MM/DD/YYYY") + "`\n",
           true
         );
