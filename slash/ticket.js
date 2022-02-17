@@ -94,7 +94,7 @@ exports.run = async (client, interaction) => {
           const ticketChannelEmbed = new MessageEmbed();
           ticketChannelEmbed.setTitle("Ticket");
           ticketChannelEmbed.setDescription(
-            `${userMention}\n Please ask your question and a TA will be with you shortly.`
+            `${userMention}\n Please ask your question and a Moderator will be with you shortly.`
           );
           ticketChannelEmbed.setFooter(
             `Ticket requested by ${member.user.tag}`,
