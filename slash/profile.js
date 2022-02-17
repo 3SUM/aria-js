@@ -68,7 +68,7 @@ exports.run = async (client, interaction) => {
           true
         );
         embedInfo.addField(
-          "**❱ Date Join UNLV CS:**",
+          "**❱ Date Join OnlyCode:**",
           "`" + moment(member.joinedTimestamp).format("MM/DD/YYYY") + "`\n",
           true
         );
@@ -95,7 +95,7 @@ exports.run = async (client, interaction) => {
         embedInfo.setColor("#3498db");
         embedInfo.setFooter(
           "Aria",
-          "https://cdn.discordapp.com/avatars/883431037563191350/78fcf7ea98f1eb6506152ea8b16cf5d3.png"
+          "https://cdn.discordapp.com/avatars/883431037563191350/0d70b343dc9da3e9546ae40c3ecc8846.png"
         );
 
         interaction.reply({
@@ -134,7 +134,7 @@ exports.run = async (client, interaction) => {
         embedInfo.setColor("#3498db");
         embedInfo.setFooter(
           "Aria",
-          "https://cdn.discordapp.com/avatars/883431037563191350/78fcf7ea98f1eb6506152ea8b16cf5d3.png"
+          "https://cdn.discordapp.com/avatars/883431037563191350/0d70b343dc9da3e9546ae40c3ecc8846.png"
         );
 
         interaction.reply({
