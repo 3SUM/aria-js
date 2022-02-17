@@ -3,5 +3,5 @@ module.exports = (client, member) => {
   const guild = member.guild;
   const userRole = guild.roles.cache.find((role) => role.name === "User");
   member.roles.add(userRole);
-  await member.setNickname("0xFFFF");
+  member.setNickname("0xFFFF");
 };
